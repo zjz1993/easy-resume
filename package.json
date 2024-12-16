@@ -1,0 +1,39 @@
+{
+  "name": "easy-resume",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "start": "pnpm tauri dev",
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2",
+    "@tauri-apps/plugin-shell": "^2",
+    "element-plus": "^2.9.1",
+    "jspdf": "^2.5.2",
+    "vue": "^3.3.4",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@tailwindcss/forms": "^0.5.7",
+    "@tauri-apps/cli": "^2",
+    "@types/node": "^22.10.2",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "autoprefixer": "^10.4.16",
+    "path": "^0.12.7",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.3",
+    "typescript": "^5.2.2",
+    "unplugin-auto-import": "^0.19.0",
+    "unplugin-element-plus": "^0.8.0",
+    "unplugin-vue-components": "^0.28.0",
+    "url": "^0.11.4",
+    "vite": "^5.3.1",
+    "vue-tsc": "^2.0.22"
+  }
+}
