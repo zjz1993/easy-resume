@@ -28,6 +28,7 @@ export interface PersonalInfo {
 }
 
 export interface Resume {
+  name: string;
   personalInfo: PersonalInfo;
   education: Education[];
   experience: Experience[];
